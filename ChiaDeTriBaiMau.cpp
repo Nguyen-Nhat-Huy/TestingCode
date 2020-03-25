@@ -7,7 +7,7 @@ void sinh(int *&a, int &n){
 	cout<<"\n so phan tu mang can sinh:"; cin>>n;
 	a= new int[n];
 	for(int i=0; i<n; i++)
-		a[i] =rand()%501;// %501 de mang co gia tri nho de~ tinh toan
+		a[i] =rand()%50+1;// rand() từ giá trị 1 đến 50
 }
 // in ra mang da tao
 void in(int *&a, int &n){
